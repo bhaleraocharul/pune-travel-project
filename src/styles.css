@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: whitesmoke;
+  /*background-color: whitesmoke;*/
+  background: black;
 }
 
 .container {
@@ -47,10 +48,12 @@ body {
 
 .card-body {
   padding: 30px;
+  background: #272435;
 }
 
 .card {
-  background: white;
+  /*background: white;*/
+  background: #272435;
   margin: 30px 0;
 }
 
@@ -72,7 +75,8 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #2e2d6b;
+  /*background-color: #2e2d6b;*/
+  background: #462cb2;
   text-decoration: none;
 }
 
@@ -83,7 +87,8 @@ section {
 }
 
 section.secondary {
-  background: #f8f8f8;
+  background: rgb(24, 23, 23);
+  /*background: #f8f8f8;*/
 }
 
 header {
@@ -134,7 +139,8 @@ header a {
 }
 
 main {
-  background-color: white;
+  /*background-color: white;*/
+  background-color: black;
 }
 
 main h2 {
@@ -145,12 +151,14 @@ main h2 {
   opacity: 0.3;
   text-transform: uppercase;
   margin: 0;
+  color: white;
 }
 
 main h3 {
   font-weight: 700;
   font-size: 40px;
-  color: #272044;
+  /*color: #272044;*/
+  color: whitesmoke;
   line-height: 1.5;
   margin: 0;
 }
@@ -159,7 +167,8 @@ main h4 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
-  color: #272044;
+  /*color: #272044;*/
+  color: white;
   margin: 0;
 }
 
@@ -167,7 +176,8 @@ main h5 {
   font-weight: 700;
   font-size: 13px;
   line-height: 1;
-  color: #272044;
+  /*color: #272044;*/
+  color: white;
   margin: 0;
 }
 
@@ -176,8 +186,9 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
-  opacity: 0.7;
+  /*color: #272044;*/
+  color: white;
+  opacity: 0.5;
 }
 
 .food {
